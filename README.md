@@ -23,8 +23,8 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ### Links
 
-- [Github Repo](https://your-solution-url.com)
-- [Live view](https://your-live-site-url.com)
+- [Github Repo](https://github.com/DarthEND/TOP-calculator)
+- [Live view](https://darthend.github.io/TOP-calculator/)
 
 ## My process
 
@@ -38,7 +38,7 @@ This is a solution to the [Calculator app challenge on Frontend Mentor](https://
 
 ## Author
 
-- Github - [DarthEND](https://www.your-site.com)
+- Github - [DarthEND](https://github.com/DarthEND)
 - Frontend Mentor - [@DarthEND](https://www.frontendmentor.io/profile/DarthEND)
 
 
