@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px; }
+    .attribution a { color: hsl(0, 0%, 100%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="calc_body">
+      <div class="header">
+        <div class="title">
+          <h1>calc</h1>
+        </div>
+      </div>
+      <div class="display">
+        <p data-calculation-display class="calculation-display"></p>
+        <p data-number-display class="display_num"></p>
+      </div>
+      <div class="keypad">
+        <button data-number class="key">7</button>
+        <button data-number class="key">8</button>
+        <button data-number class="key">9</button>
+        <button data-delete class="del key">DEL</button>
+        <button data-number class="key">4</button>
+        <button data-number class="key">5</button>
+        <button data-number class="key">6</button>
+        <button data-operator class="key">+</button>
+        <button data-number class="key">1</button>
+        <button data-number class="key">2</button>
+        <button data-number class="key">3</button>
+        <button data-operator class="key">-</button>
+        <button data-number class="key">.</button>
+        <button data-number class="key">0</button>
+        <button data-operator class="key">/</button>
+        <button data-operator class="key">*</button>
+        <button data-reset class="reset key">RESET</button>
+        <button data-equal class="equal key">=</button>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Oleg Andronic | DarthEND</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

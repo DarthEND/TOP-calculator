@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(222, 26%, 31%);
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main{
+    display: flex;
+    max-width: 500px;
+    margin:  0 auto;
+    margin-top: 100px;
+}
+
+.title{
+    padding: 10px 0;
+}
+
+.title h1{
+    color: hsl(0, 0%, 100%);
+}
+
+.display{
+    background-color: hsl(224, 36%, 15%);
+    width: 500px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.calculation-display{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 10px;
+}
+.operator{
+    color: hsl(6, 63%, 50%);
+    padding: 0 3px;
+}
+
+.display_num{
+    color: hsl(0, 0%, 100%);
+    font-size: 42px;
+}
+
+.keypad{
+    background-color: hsl(223, 31%, 20%);
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.keypad button{
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    box-shadow: inset 0px -4px 0px 0px hsl(28, 16%, 65%);
+}
+.keypad button:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+}
+.del, .reset{
+    background-color: hsl(225, 21%, 49%) !important;
+    box-shadow: inset 0px -4px 0px 0px hsl(224, 28%, 35%) !important;
+    color: hsl(0, 0%, 100%) !important;
+    font-size: 1.5em !important;
+}
+
+.del:hover, .reset:hover{
+    background-color: hsl(224, 51%, 76%) !important;
+}
+.reset{
+    grid-column: 1/3;
+}
+.equal{
+    background-color: hsl(6, 63%, 50%) !important;
+    box-shadow: inset 0px -4px 0px 0px hsl(6, 70%, 34%) !important;
+    color: hsl(0, 0%, 100%) !important;
+    grid-column: 3/5;
+}
+.equal:hover{
+    background-color: hsl(6, 93%, 67%) !important;
+}
