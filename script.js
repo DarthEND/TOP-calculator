@@ -17,7 +17,7 @@ let operator = undefined;
 const add = (a,b) => a + b;
 const subtract = (a,b) => b - a;
 const multiply = (a,b) => a * b;
-const divide = (a,b) => a / b;
+const divide = (a,b) => b / a;
 
 // Event listeners for number keys
 numberKeys.forEach(button => {
